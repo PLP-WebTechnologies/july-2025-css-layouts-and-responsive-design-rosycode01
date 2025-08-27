@@ -1,51 +1,53 @@
-# 🧩 Assignment: CSS Layouts & Responsive Web Design
+Eggs Management System
+A responsive web application for managing egg production, inventory, and tracking. Built with modern CSS layout techniques including Flexbox and Grid, with responsive design principles for optimal viewing across all devices.
 
-## Overview
+Features
+Dashboard Overview: View key metrics including daily collection, weekly averages, hen health, and feed inventory
 
-In this assignment, you'll learn how to bring structure, flexibility, and responsiveness to your web pages using modern CSS layout techniques—**Flexbox** and **Grid**. You'll also apply **Responsive Web Design (RWD)** principles to ensure your page adapts beautifully across screen sizes and devices.
+Responsive Design: Adapts seamlessly to mobile, tablet, and desktop screens
 
-## Objective
+Modern CSS Layout: Utilizes both Flexbox and CSS Grid for optimal content organization
 
-Build a responsive multi-section webpage that uses **Flexbox** and **CSS Grid** for layout and demonstrates how content adjusts across mobile, tablet, and desktop views. You'll showcase your ability to align and position content with precision, using media queries and flexible units to enhance the user experience on any device.
+Quick Stats Sidebar: Provides at-a-glance production statistics
 
-## What You’ll Practice
+Activity Tracking: Monitor recent farm activities and events
 
-* Structuring content using Flexbox for 1D layouts (rows or columns)
-* Using CSS Grid for complex 2D layouts
-* Applying responsive design techniques using media queries and relative units (`%, rem`, `vw`, etc.)
-* Creating layouts that gracefully adapt to different screen sizes without breaking
+Technologies Used
+HTML5
 
-## Instructions
+CSS3 (Flexbox, Grid, Media Queries)
 
-Create a responsive webpage that contains multiple sections—such as a header, navigation bar, content area, sidebar, and footer. You are encouraged to use Flexbox in one part of the page and Grid in another (e.g., Grid for the main layout and Flexbox for cards or navigation alignment).
+Responsive Web Design Principles
 
-Make sure your layout:
+Layout Techniques
+Flexbox Implementation
+Header navigation menu
 
-* Looks good on **desktop**, **tablet**, and **mobile**
-* Uses media queries to adjust column layout, spacing, or visibility
-* Demonstrates thoughtful content placement using both layout models
+Activity list items
 
-Avoid using any CSS frameworks or libraries—build everything with raw CSS.
+Footer content
 
-## Deliverables
+Quick stats items
 
-Submit the following:
+CSS Grid Implementation
+Main content area with sidebar
 
-* `index.html`: Your HTML5 structure
-* `style.css`: Your responsive CSS file with Flexbox, Grid, and media queries
+Dashboard cards container
 
-The code should demonstrate:
+Responsive grid adjustments for different screen sizes
 
-* Clear use of Flexbox and Grid
-* Responsiveness with proper breakpoints
-* Clean, maintainable CSS structure with helpful comments
+Responsive Breakpoints
+Desktop: 901px and above (default)
 
-## Tips
+Tablet: 900px and below (switches to single column layout)
 
-* Effective use of Flexbox and CSS Grid layout techniques
-* Visual clarity and logical content flow across screen sizes
-* Proper use of media queries and responsive units
-* Code readability, organization, and best practices
-* Creativity and attention to layout detail
+Mobile: 768px and below (stacked navigation, simplified cards)
 
+Small Mobile: 480px and below (further optimized for small screens)
 
+File Structure
+text
+eggs-management-system/
+├── index.html
+├── style.css
+└── README.md
